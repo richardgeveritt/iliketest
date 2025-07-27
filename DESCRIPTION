@@ -1,0 +1,20 @@
+Package: iliketest
+Type: Package
+Title: Tests for the ilike Package
+Version: 0.1.0
+Authors@R: 
+    person(given = c("Richard","G"),
+           family = "Everitt",
+           role = c("aut", "cre"),
+           email = "richard.g.everitt@gmail.com",
+           comment = c(ORCID = "0000-0002-0822-5648"))
+Maintainer: Richard G. Everitt <richard.g.everitt@gmail.com>
+Description: Tests for the ilike package.
+LinkingTo: ilike
+Imports: tinytest, ilike
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
